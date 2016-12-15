@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
+  author="Roman Neumueller (katpatuka@osm)"
+  version="1.0_2014-03-16"
+  description="presets I use in Turkey and China">
+<separator/>
+<chunk id="sources" >
+  <label text="Source" />
+  <combo key="source" text="source" values="bing,mapbox,landsat,GPS,osm-gpx,estimated,cyclemap,survey" default="bing" match="keyvalue!"/>
+</chunk>
+<chunk id="names" >
+  <text key="name:en" text="Name (english)" default="" />
+  <item_separator />
+  <text key="alt_name" text="Name (alternate)" default="" />
+  <text key="old_name" text="Name (old)" default="" />
+  <item_separator />
+  <text key="name:zh" text="Chinese" default="" />
+  <text key="name:zh_pinyin" text="Name (pinyin)" default="" />
+  <text key="name:bo" text="Tibetan)" default="" />
+  <item_separator />
+  <text key="name:el" text="Name (greek)" default="" />
+  <text key="name:hy" text="Name (armenian)" default="" />
+  <text key="name:ka" text="Name (georgian)" default="" />
+  <item_separator />
+  <text key="name:ku" text="Kurdish" default="" />
+  <text key="name:diq" text="Zazaca)" default="" />
+  <text key="name:tr" text="Turkish" default="" />
+  <text key="int_name" text="(International)" default="" />
+  <text key="name:de" text="Ggerman" default="" />
+</chunk>
+<group name="katpatuka's presets" icon="styles/standard/sightseeing/viewpoint.png">
+<item name="Source" tr.name="kaynak" icon="presets/informationoffice.png" match="key">
+  <reference ref="sources" />
+</item>
+
+<item name="Bridge" icon="presets/bridge.png" type="way">
+  <key key="bridge" value="yes" />
+  <key key="layer" value="1" />
+</item>
+<item name="Tunnel" icon="presets/tunnel.png" type="way">
+  <key key="tunnel" value="yes" />
+  <key key="layer" value="-1" />
+</item>
+<item name="Residential area" tr.name="yerlesim bolgesi" icon="presets/landuse.png" type="closedway">
+  <key key="landuse" value="residential"/>
+  <reference ref="sources" />
+</item>
+<item name="Building" icon="styles/standard/misc/landmark/building.png" type="closedway">
+  <key key="building" value="yes"/>
+  <key key="source" value="bing"/>
+</item>
+<item name="River" icon="presets/river.png" type="way">
+  <key key="waterway" value="river"/>
+  <reference ref="sources" />
+</item>
+<item name="Stream" icon="presets/path.png" type="way">
+  <key key="waterway" value="stream"/>
+  <reference ref="sources" />
+</item>
+<item name="Lake" icon="presets/bay.png" type="closedway">
+  <key key="natural" value="water"/>
+  <reference ref="sources" />
+</item>
+<item name="Dam" icon="presets/weir.png" type="way,closedway">
+  <key key="waterway" value="dam"/>
+  <key key="building" value="dam"/>
+  <reference ref="sources" />
+</item>
+<item name="Mound" icon="styles/standard/historic/palaeontological_site.png" type="node,closedway">
+  <key key="man_made" value="mound"/>
+  <key key="historic" value="archaeological_site"/>
+  <key key="source" value="bing"/>
+  <text key="wikipedia" text="Wikipedia" default="" />
+</item>
+<item name="Mosque" tr.name="cami" icon="styles/standard/religion/muslim.png" type="node,closedway">
+  <key key="amenity" value="place_of_worship"/>
+  <key key="religion" value="muslim"/>
+  <key key="denomination" value="sunni"/>
+  <reference ref="sources" />
+</item>
+<item name="Buddhist Temple" icon="styles/standard/religion/buddhism.png" type="node,closedway">
+  <key key="amenity" value="place_of_worship"/>
+  <key key="religion" value="buddhist"/>
+  <combo key="denomination" text="denomination" values="tibetan" default="" match="key" />
+  <reference ref="sources" />
+</item>
+<item name="Graveyard" tr.name="mezarlik" icon="presets/cemetery.png" type="closedway">
+  <key key="landuse" value="cemetery"/>
+  <key key="religion" value="muslim"/>
+  <key key="denomination" value="sunni"/>
+  <reference ref="sources" />
+</item>
+<item name="Oneway" de.name="Einbahnstrasse" tr.name="tek yon" icon="http://katpatuka.org/pub/osm/oneway.png" type="way">
+  <key key="oneway" value="yes" />
+</item>
+<item name="level crossing" icon="presets/level_crossing.png" type="node">
+  <key key="railway" value="level_crossing"/>
+  <reference ref="sources" />
+</item>
+<item name="Tertiary" tr.name="koyler arasi yolu" icon="presets/way_tertiary.png" type="way">
+  <key key="highway" value="tertiary"/>
+  <reference ref="sources" />
+</item>
+<item name="Residential" tr.name="sokak" icon="presets/residential.png" type="way">
+  <key key="highway" value="residential"/>
+  <reference ref="sources" />
+</item>
+<item name="Service" tr.name="servis yolu" icon="presets/waypoints.png" type="way">
+  <key key="highway" value="service"/>
+  <reference ref="sources" />
+</item>
+<item name="Living Street" tr.name="sokak" icon="presets/way_unclassified.png" type="way">
+  <key key="highway" value="living_street"/>
+  <reference ref="sources" />
+</item>
+<item name="Track" tr.name="toprak yolu" icon="presets/track1.png" type="way">
+  <key key="highway" value="track"/>
+  <reference ref="sources" />
+</item>
+<item name="petrol" icon="presets/fuel.png" type="node,closedway">
+  <key key="amenity" value="fuel"/>
+</item>
+<item name="power tower" tr.name="elektrik direk" icon="styles/standard/misc/landmark/power/tower_small.png" type="node">
+  <key key="power" value="tower"/>
+</item>
+<item name="power station" tr.name="trafo merkezi" icon="presets/multipolygon.png" type="node,closedway">
+  <key key="power" value="substation"/>
+  <reference ref="sources" />
+</item>
+<item name="power line" tr.name="elektrik hat" icon="presets/bench.png" type="way">
+  <key key="power" value="line"/>
+  <reference ref="sources" />
+</item>
+<item name="Maut" icon="presets/toll_station.png" type="node">
+  <key key="barrier" value="toll_booth"/>
+  <reference ref="sources" />
+</item>
+<item name="tower" tr.name="direk" icon="styles/standard/misc/landmark/tower.png" type="node">
+  <key key="man_made" value="mast"/>
+  <key key="tower:type" value="communication"/>
+  <reference ref="sources" />
+</item>
+<item name="peak" tr.name="tepe/zirve" icon="presets/peak.svg" type="node">
+  <label text="Edit Peak" />
+  <key key="natural" value="peak" />
+  <text key="name" text="Name" default="" />
+  <reference ref="names" />
+  <text key="ele" text="Elevation" default="" />
+  <text key="wikipedia" text="Wikipedia" default="" />
+</item>
+<item name="volcano" tr.name="yanardagi" icon="presets/volcano.png" type="node">
+  <label text="Edit Volcano" />
+  <key key="natural" value="volcano" />
+  <text key="name" text="Name" default="" />
+  <text key="ele" text="Elevation" default="" />
+  <combo key="type" text="Type" values="strato,shield,pyroclastic,complex,caldera,lava dome,mud volcano" default=""  />
+  <text key="last_eruption" text="Last eruption" default=""  />
+  <text key="wikipedia" text="Wikipedia" default="" />
+</item>
+
+<item name="Place" tr.name="koy" icon="icons/place.png">
+<label text="Edit Place" />
+  <text key="name" text="Name" default="" />
+  <combo key="place" text="Place" values="village,hamlet,town,location" default="village" match="key" />
+  <combo key="china_class" text="china_class" values="zhen,xiang" />
+  <combo key="turkey_class" text="turkey_class" values="belde,mezra,yayla" />
+  <reference ref="names" />
+  <text key="is_in" text="Is in" default="" />
+  <item_separator />
+  <text key="wikipedia" text="Wikipedia" default="" />
+  <text key="wikidata" text="Wikidata" default="" />
+</item>
+<item name="Chin. river" icon="presets/river.png">
+<label text="Edit River" />
+<label text=" " />
+  <text key="code" text="code" default="" />
+  <text key="zhb_code" text="zhb_code" default="" />
+  <text key="nsdi_code" text="nsdi_code" default="" />
+  <item_separator />
+  <text key="name" text="Name" default="" />
+  <reference ref="names" />
+  <item_separator />
+  <text key="alt_name:en" text="Name (alternate, english)" default="" />
+  <text key="alt_name:zh_pinyin" text="Name (alternate, pinyin)" default="" />
+  <item_separator />
+  <text key="wikipedia" text="Wikipedia" default="" />
+  <text key="wikidata" text="Wikidata" default="" />
+</item>
+<item name="highway" tr.name="yol" icon="presets/car.png" match="key">
+  <label text="highway" />
+  <combo key="highway" text="source" type="way" values="primary,secondary,tertiary,undefined,residential,living_street,motorway_link,trunk_link" default="secondary" />
+  <text key="ref" text="Ref" default="" />
+  <reference ref="sources" />
+  <text key="name" text="Name" default="" />
+  <text key="name:en" text="English" default="" />
+  <text key="name:tr" text="Turkish" default="" />
+</item>
+
+</group> <!-- My own -->
+</presets>
