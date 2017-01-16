@@ -16,7 +16,8 @@
   <item_separator />
   <text key="name:zh" text="Chinese" default="" />
   <text key="name:zh_pinyin" text="Name (pinyin)" default="" />
-  <text key="name:bo" text="Tibetan)" default="" />
+  <text key="name:bo" text="Tibetan" default="" />
+  <text key="name:vi" text="Vietnamese" default="" />
   <item_separator />
   <text key="name:el" text="Name (greek)" default="" />
   <text key="name:hy" text="Name (armenian)" default="" />
@@ -25,8 +26,9 @@
   <text key="name:ku" text="Kurdish" default="" />
   <text key="name:diq" text="Zazaca)" default="" />
   <text key="name:tr" text="Turkish" default="" />
+  <item_separator />
   <text key="int_name" text="(International)" default="" />
-  <text key="name:de" text="Ggerman" default="" />
+  <text key="name:de" text="German" default="" />
 </chunk>
 <group name="katpatuka's presets" icon="styles/standard/sightseeing/viewpoint.png">
 <item name="Source" tr.name="kaynak" icon="presets/informationoffice.png" match="key">
