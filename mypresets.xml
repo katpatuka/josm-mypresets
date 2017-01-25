@@ -190,7 +190,7 @@
 </item>
 <item name="highway" tr.name="yol" icon="presets/car.png" match="key">
   <label text="highway" />
-  <combo key="highway" text="source" type="way" values="primary,secondary,tertiary,undefined,residential,living_street,motorway_link,trunk_link" default="secondary" />
+  <combo key="highway" text="value" type="way" values="primary,secondary,tertiary,undefined,residential,living_street,motorway_link,trunk_link" default="secondary" />
   <text key="ref" text="Ref" default="" />
   <reference ref="sources" />
   <text key="name" text="Name" default="" />
