@@ -97,7 +97,6 @@
 </item>
 <item name="level crossing" icon="presets/level_crossing.png" type="node">
   <key key="railway" value="level_crossing"/>
-  <reference ref="sources" />
 </item>
 <item name="Tertiary" tr.name="koyler arasi yolu" icon="presets/way_tertiary.png" type="way">
   <key key="highway" value="tertiary"/>
