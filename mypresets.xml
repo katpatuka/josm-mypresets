@@ -49,7 +49,7 @@
 </item>
 <item name="Building" icon="styles/standard/misc/landmark/building.png" type="closedway">
   <key key="building" value="yes"/>
-  <key key="source" value="bing"/>
+  <reference ref="sources" />
 </item>
 <item name="River" icon="presets/river.png" type="way">
   <key key="waterway" value="river"/>
