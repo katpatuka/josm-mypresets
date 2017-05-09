@@ -2,11 +2,11 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
   author="Roman Neumueller (katpatuka@osm)"
   version="1.0_2014-03-16"
-  description="presets I use in Turkey and China">
+  description="presets I use in Turkey and Southeast Asia">
 <separator/>
 <chunk id="sources" >
   <label text="Source" />
-  <combo key="source" text="source" values="bing,mapbox,landsat,GPS,osm-gpx,estimated,cyclemap,survey" default="bing" match="keyvalue!"/>
+  <combo key="source" text="source" values="bing,mapbox,DigitalGlobe,landsat,GPS,osm-gpx,estimated,cyclemap,survey" default="bing" match="keyvalue!"/>
 </chunk>
 <chunk id="names" >
   <text key="name:en" text="Name (english)" default="" />
@@ -18,13 +18,14 @@
   <text key="name:zh_pinyin" text="Name (pinyin)" default="" />
   <text key="name:bo" text="Tibetan" default="" />
   <text key="name:vi" text="Vietnamese" default="" />
+  <text key="name:my" text="Burmese" default="" />
   <item_separator />
-  <text key="name:el" text="Name (greek)" default="" />
-  <text key="name:hy" text="Name (armenian)" default="" />
-  <text key="name:ka" text="Name (georgian)" default="" />
+  <text key="name:el" text="Greek" default="" />
+  <text key="name:hy" text="Armenian" default="" />
+  <text key="name:ka" text="Georgian" default="" />
   <item_separator />
   <text key="name:ku" text="Kurdish" default="" />
-  <text key="name:diq" text="Zazaca)" default="" />
+  <text key="name:diq" text="Zazaca" default="" />
   <text key="name:tr" text="Turkish" default="" />
   <item_separator />
   <text key="int_name" text="(International)" default="" />
@@ -146,6 +147,7 @@
   <key key="natural" value="peak" />
   <text key="name" text="Name" default="" />
   <reference ref="names" />
+  <item_separator />
   <text key="ele" text="Elevation" default="" />
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
