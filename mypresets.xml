@@ -6,7 +6,7 @@
 <separator/>
 <chunk id="sources" >
   <label text="Source" />
-  <combo key="source" text="source" values="bing,mapbox,DigitalGlobe,landsat,GPS,osm-gpx,estimated,cyclemap,survey" default="DigitalGlobe" match="keyvalue!"/>
+  <combo key="source" text="source" values="bing,mapbox,digitalGlobe,landsat,GPS,osm-gpx,estimated,cyclemap,survey" default="digitalGlobe" match="keyvalue!"/>
 </chunk>
 <chunk id="names" >
   <text key="name:en" text="Name (english)" default="" />
