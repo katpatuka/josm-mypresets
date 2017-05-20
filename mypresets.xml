@@ -6,7 +6,7 @@
 <separator/>
 <chunk id="sources" >
   <label text="Source" />
-  <combo key="source" text="source" values="bing,mapbox,digitalGlobe,landsat,GPS,osm-gpx,estimated,cyclemap,survey" default="digitalGlobe" match="keyvalue!"/>
+  <combo key="source" text="source" values="bing,mapbox,digitalGlobe,landsat,GPS,osm-gpx,estimated,cyclemap,survey" match="keyvalue!"/>
 </chunk>
 <chunk id="names" >
   <text key="name:en" text="Name (english)" default="" />
@@ -35,7 +35,6 @@
 <item name="Source" tr.name="kaynak" icon="presets/informationoffice.png" match="key">
   <reference ref="sources" />
 </item>
-
 <item name="Bridge" icon="presets/bridge.png" type="way">
   <key key="bridge" value="yes" />
   <key key="layer" value="1" />
@@ -43,10 +42,6 @@
 <item name="Tunnel" icon="presets/tunnel.png" type="way">
   <key key="tunnel" value="yes" />
   <key key="layer" value="-1" />
-</item>
-<item name="Residential area" tr.name="yerlesim bolgesi" icon="presets/landuse.png" type="closedway">
-  <key key="landuse" value="residential"/>
-  <reference ref="sources" />
 </item>
 <item name="Building" icon="styles/standard/misc/landmark/building.png" type="closedway">
   <key key="building" value="yes"/>
@@ -60,8 +55,12 @@
   <key key="waterway" value="stream"/>
   <reference ref="sources" />
 </item>
-<item name="Lake" icon="presets/bay.png" type="closedway">
-  <key key="natural" value="water"/>
+<item name="Natural" icon="presets/bay.png" type="node,way,closedway">
+  <combo key="natural" text="Natural" values="water,wetland,wood,scrub,cliff" default="water" match="keyvalue!"/>
+  <reference ref="sources" />
+</item>
+<item name="Landuse" icon="presets/landuse.png" type="closedway">
+  <combo key="landuse" text="Landuse" values="residential,industrial,quarry,landfill,forest,meadow" default="residential" match="keyvalue!"/>
   <reference ref="sources" />
 </item>
 <item name="Dam" icon="presets/weir.png" type="way,closedway">
