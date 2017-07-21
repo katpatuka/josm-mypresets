@@ -188,7 +188,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="highway" tr.name="yol" icon="presets/transport/car.svg" match="key">
+<item name="highway" tr.name="yol" icon="presets/transport/way/way_trunk_link.svg" match="key">
   <label text="highway" />
   <combo key="highway" text="value" type="way" values="primary,secondary,tertiary,undefined,residential,living_street,motorway_link,trunk_link" default="secondary" />
   <text key="ref" text="Ref" default="" />
