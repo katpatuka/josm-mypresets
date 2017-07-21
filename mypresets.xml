@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
   author="Roman Neumueller (katpatuka@osm)"
-  version="1.0_2014-03-16"
+  version="1.0_2017-07-21"
   description="presets I use in Turkey and Southeast Asia">
 <separator/>
 <chunk id="sources" >
@@ -32,7 +32,7 @@
   <text key="name:de" text="German" default="" />
 </chunk>
 <group name="katpatuka's presets" icon="styles/standard/sightseeing/viewpoint.png">
-<item name="Source" tr.name="kaynak" icon="presets/informationoffice.png" match="key">
+<item name="Source" tr.name="kaynak" icon="presets/misc/informationoffice.svg" match="key">
   <reference ref="sources" />
 </item>
 <item name="Bridge" icon="presets/bridge.png" type="way">
@@ -43,11 +43,11 @@
   <key key="tunnel" value="yes" />
   <key key="layer" value="-1" />
 </item>
-<item name="Building" icon="styles/standard/misc/landmark/building.png" type="closedway">
+<item name="Building" icon="presets/landmark/building.png" type="closedway">
   <key key="building" value="yes"/>
   <reference ref="sources" />
 </item>
-<item name="River" icon="presets/river.png" type="way">
+<item name="River" icon="presets/nautical/river.png" type="way">
   <key key="waterway" value="river"/>
   <reference ref="sources" />
 </item>
