@@ -35,11 +35,11 @@
 <item name="Source" tr.name="kaynak" icon="presets/misc/information/informationoffice.svg" match="key">
   <reference ref="sources" />
 </item>
-<item name="Bridge" icon="presets/transport/bridge.svg" type="way">
+<item name="Bridge" icon="presets/transport/bridge/bridge.svg" type="way">
   <key key="bridge" value="yes" />
   <key key="layer" value="1" />
 </item>
-<item name="Tunnel" icon="presets/transport/tunnel.svg" type="way">
+<item name="Tunnel" icon="presets/transport/passage/tunnel.svg" type="way">
   <key key="tunnel" value="yes" />
   <key key="layer" value="-1" />
 </item>
@@ -51,7 +51,7 @@
   <key key="waterway" value="river"/>
   <reference ref="sources" />
 </item>
-<item name="Stream" icon="presets/transport/path.svg" type="way">
+<item name="Stream" icon="presets/nautical//waterway_stream.svg" type="way">
   <key key="waterway" value="stream"/>
   <reference ref="sources" />
 </item>
@@ -95,26 +95,26 @@
 <item name="Oneway" de.name="Einbahnstrasse" tr.name="tek yon" icon="http://katpatuka.org/pub/osm/oneway.png" type="way">
   <key key="oneway" value="yes" />
 </item>
-<item name="level crossing" icon="presets/transport/level_crossing.svg" type="node">
+<item name="level crossing" icon="presets/transport/railway/level_crossing.svg" type="node">
   <key key="railway" value="level_crossing"/>
 </item>
-<item name="Tertiary" tr.name="koyler arasi yolu" icon="presets/transport/way_tertiary.svg" type="way">
+<item name="Tertiary" tr.name="koyler arasi yolu" icon="presets/transport/way/way_tertiary.svg" type="way">
   <key key="highway" value="tertiary"/>
   <reference ref="sources" />
 </item>
-<item name="Residential" tr.name="sokak" icon="presets/transport/residential.svg" type="way">
+<item name="Residential" tr.name="sokak" icon="presets/transport/way/residential.svg" type="way">
   <key key="highway" value="residential"/>
   <reference ref="sources" />
 </item>
-<item name="Service" tr.name="servis yolu" icon="presets/transport/way_service.svg" type="way">
+<item name="Service" tr.name="servis yolu" icon="presets/transport/way/way_service.svg" type="way">
   <key key="highway" value="service"/>
   <reference ref="sources" />
 </item>
-<item name="Living Street" tr.name="sokak" icon="presets/transport/way_unclassified.svg" type="way">
+<item name="Living Street" tr.name="sokak" icon="presets/transport/way/way_unclassified.svg" type="way">
   <key key="highway" value="living_street"/>
   <reference ref="sources" />
 </item>
-<item name="Track" tr.name="toprak yolu" icon="presets/transport/track.svg" type="way">
+<item name="Track" tr.name="toprak yolu" icon="presets/transport/way/track.svg" type="way">
   <key key="highway" value="track"/>
   <reference ref="sources" />
 </item>
