@@ -31,8 +31,8 @@
   <text key="int_name" text="(International)" default="" />
   <text key="name:de" text="German" default="" />
 </chunk>
-<group name="katpatuka's presets" icon="styles/standard/sightseeing/viewpoint.png">
-<item name="Source" tr.name="kaynak" icon="presets/misc/informationoffice.svg" match="key">
+<group name="katpatuka's presets" icon="presets/sightseeing/viewpoint.svg">
+<item name="Source" tr.name="kaynak" icon="presets/misc/information/informationoffice.svg" match="key">
   <reference ref="sources" />
 </item>
 <item name="Bridge" icon="presets/bridge.png" type="way">
