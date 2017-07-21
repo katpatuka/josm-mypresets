@@ -47,11 +47,11 @@
   <key key="building" value="yes"/>
   <reference ref="sources" />
 </item>
-<item name="River" icon="presets/nautical//waterway_river.svg" type="way">
+<item name="River" icon="presets/nautical/waterway_river.svg" type="way">
   <key key="waterway" value="river"/>
   <reference ref="sources" />
 </item>
-<item name="Stream" icon="presets/nautical//waterway_stream.svg" type="way">
+<item name="Stream" icon="presets/nautical/waterway_stream.svg" type="way">
   <key key="waterway" value="stream"/>
   <reference ref="sources" />
 </item>
@@ -102,7 +102,7 @@
   <key key="highway" value="tertiary"/>
   <reference ref="sources" />
 </item>
-<item name="Residential" tr.name="sokak" icon="presets/transport/way/residential.svg" type="way">
+<item name="Residential" tr.name="sokak" icon="presets/transport/way/way_residential.svg" type="way">
   <key key="highway" value="residential"/>
   <reference ref="sources" />
 </item>
