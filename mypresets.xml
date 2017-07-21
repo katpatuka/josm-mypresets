@@ -35,58 +35,58 @@
 <item name="Source" tr.name="kaynak" icon="presets/misc/information/informationoffice.svg" match="key">
   <reference ref="sources" />
 </item>
-<item name="Bridge" icon="presets/bridge.png" type="way">
+<item name="Bridge" icon="presets/transport/bridge.svg" type="way">
   <key key="bridge" value="yes" />
   <key key="layer" value="1" />
 </item>
-<item name="Tunnel" icon="presets/tunnel.png" type="way">
+<item name="Tunnel" icon="presets/transport/tunnel.svg" type="way">
   <key key="tunnel" value="yes" />
   <key key="layer" value="-1" />
 </item>
-<item name="Building" icon="presets/landmark/building.png" type="closedway">
+<item name="Building" icon="presets/landmark/building.svg" type="closedway">
   <key key="building" value="yes"/>
   <reference ref="sources" />
 </item>
-<item name="River" icon="presets/nautical/river.png" type="way">
+<item name="River" icon="presets/nautical/river.svg" type="way">
   <key key="waterway" value="river"/>
   <reference ref="sources" />
 </item>
-<item name="Stream" icon="presets/path.png" type="way">
+<item name="Stream" icon="presets/path.svg" type="way">
   <key key="waterway" value="stream"/>
   <reference ref="sources" />
 </item>
-<item name="Natural" icon="presets/bay.png" type="node,way,closedway">
+<item name="Natural" icon="presets/nautical/bay.svg" type="node,way,closedway">
   <combo key="natural" text="Natural" values="water,wetland,wood,scrub,cliff" default="water" match="keyvalue!"/>
   <reference ref="sources" />
 </item>
-<item name="Landuse" icon="presets/landuse.png" type="closedway">
+<item name="Landuse" icon="presets/landuse.svg" type="closedway">
   <combo key="landuse" text="Landuse" values="residential,industrial,quarry,landfill,forest,meadow" default="residential" match="keyvalue!"/>
   <reference ref="sources" />
 </item>
-<item name="Dam" icon="presets/weir.png" type="way,closedway">
+<item name="Dam" icon="presets/nautical/weir.svg" type="way,closedway">
   <key key="waterway" value="dam"/>
   <key key="building" value="dam"/>
   <reference ref="sources" />
 </item>
-<item name="Mound" icon="styles/standard/historic/palaeontological_site.png" type="node,closedway">
+<item name="Mound" icon="presets/historic/palaeontological_site.svg" type="node,closedway">
   <key key="man_made" value="mound"/>
   <key key="historic" value="archaeological_site"/>
   <key key="source" value="bing"/>
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
-<item name="Mosque" tr.name="cami" icon="styles/standard/religion/muslim.png" type="node,closedway">
+<item name="Mosque" tr.name="cami" icon="presets/religion/muslim.svg" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
   <key key="religion" value="muslim"/>
   <key key="denomination" value="sunni"/>
   <reference ref="sources" />
 </item>
-<item name="Buddhist Temple" icon="styles/standard/religion/buddhism.png" type="node,closedway">
+<item name="Buddhist Temple" icon="presets/religion/buddhism.svg" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
   <key key="religion" value="buddhist"/>
   <combo key="denomination" text="denomination" values="tibetan" default="" match="key" />
   <reference ref="sources" />
 </item>
-<item name="Graveyard" tr.name="mezarlik" icon="presets/cemetery.png" type="closedway">
+<item name="Graveyard" tr.name="mezarlik" icon="presets/cemetery.svg" type="closedway">
   <key key="landuse" value="cemetery"/>
   <key key="religion" value="muslim"/>
   <key key="denomination" value="sunni"/>
@@ -95,48 +95,48 @@
 <item name="Oneway" de.name="Einbahnstrasse" tr.name="tek yon" icon="http://katpatuka.org/pub/osm/oneway.png" type="way">
   <key key="oneway" value="yes" />
 </item>
-<item name="level crossing" icon="presets/level_crossing.png" type="node">
+<item name="level crossing" icon="presets/level_crossing.svg" type="node">
   <key key="railway" value="level_crossing"/>
 </item>
-<item name="Tertiary" tr.name="koyler arasi yolu" icon="presets/way_tertiary.png" type="way">
+<item name="Tertiary" tr.name="koyler arasi yolu" icon="presets/way_tertiary.svg" type="way">
   <key key="highway" value="tertiary"/>
   <reference ref="sources" />
 </item>
-<item name="Residential" tr.name="sokak" icon="presets/residential.png" type="way">
+<item name="Residential" tr.name="sokak" icon="presets/residential.svg" type="way">
   <key key="highway" value="residential"/>
   <reference ref="sources" />
 </item>
-<item name="Service" tr.name="servis yolu" icon="presets/waypoints.png" type="way">
+<item name="Service" tr.name="servis yolu" icon="presets/waypoints.svg" type="way">
   <key key="highway" value="service"/>
   <reference ref="sources" />
 </item>
-<item name="Living Street" tr.name="sokak" icon="presets/way_unclassified.png" type="way">
+<item name="Living Street" tr.name="sokak" icon="presets/way_unclassified.svg" type="way">
   <key key="highway" value="living_street"/>
   <reference ref="sources" />
 </item>
-<item name="Track" tr.name="toprak yolu" icon="presets/track1.png" type="way">
+<item name="Track" tr.name="toprak yolu" icon="presets/track1.svg" type="way">
   <key key="highway" value="track"/>
   <reference ref="sources" />
 </item>
-<item name="petrol" icon="presets/fuel.png" type="node,closedway">
+<item name="petrol" icon="presets/fuel.svg" type="node,closedway">
   <key key="amenity" value="fuel"/>
 </item>
-<item name="power tower" tr.name="elektrik direk" icon="styles/standard/misc/landmark/power/tower_small.png" type="node">
+<item name="power tower" tr.name="elektrik direk" icon="styles/standard/misc/landmark/power/tower_small.svg" type="node">
   <key key="power" value="tower"/>
 </item>
-<item name="power station" tr.name="trafo merkezi" icon="presets/multipolygon.png" type="node,closedway">
+<item name="power station" tr.name="trafo merkezi" icon="presets/multipolygon.svg" type="node,closedway">
   <key key="power" value="substation"/>
   <reference ref="sources" />
 </item>
-<item name="power line" tr.name="elektrik hat" icon="presets/bench.png" type="way">
+<item name="power line" tr.name="elektrik hat" icon="presets/bench.svg" type="way">
   <key key="power" value="line"/>
   <reference ref="sources" />
 </item>
-<item name="Maut" icon="presets/toll_station.png" type="node">
+<item name="Maut" icon="presets/toll_station.svg" type="node">
   <key key="barrier" value="toll_booth"/>
   <reference ref="sources" />
 </item>
-<item name="tower" tr.name="direk" icon="styles/standard/misc/landmark/tower.png" type="node">
+<item name="tower" tr.name="direk" icon="styles/standard/misc/landmark/tower.svg" type="node">
   <key key="man_made" value="mast"/>
   <key key="tower:type" value="communication"/>
   <reference ref="sources" />
@@ -150,7 +150,7 @@
   <text key="ele" text="Elevation" default="" />
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
-<item name="volcano" tr.name="yanardagi" icon="presets/volcano.png" type="node">
+<item name="volcano" tr.name="yanardagi" icon="presets/volcano.svg" type="node">
   <label text="Edit Volcano" />
   <key key="natural" value="volcano" />
   <text key="name" text="Name" default="" />
@@ -160,7 +160,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
 
-<item name="Place" tr.name="koy" icon="icons/place.png">
+<item name="Place" tr.name="koy" icon="icons/place.svg">
 <label text="Edit Place" />
   <text key="name" text="Name" default="" />
   <combo key="place" text="Place" values="village,hamlet,town,location" default="village" match="key" />
@@ -172,7 +172,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="Chin. river" icon="presets/river.png">
+<item name="Chin. river" icon="presets/river.svg">
 <label text="Edit River" />
 <label text=" " />
   <text key="code" text="code" default="" />
@@ -188,7 +188,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="highway" tr.name="yol" icon="presets/car.png" match="key">
+<item name="highway" tr.name="yol" icon="presets/transport/car.svg" match="key">
   <label text="highway" />
   <combo key="highway" text="value" type="way" values="primary,secondary,tertiary,undefined,residential,living_street,motorway_link,trunk_link" default="secondary" />
   <text key="ref" text="Ref" default="" />
