@@ -92,7 +92,7 @@
 <item name="Oneway" de.name="Einbahnstrasse" tr.name="tek yon" icon="http://katpatuka.org/pub/osm/oneway.png" type="way">
   <key key="oneway" value="yes" />
 </item>
-<item name="level crossing" icon="presets/level_crossing.png" type="node">
+<item name="Level crossing" icon="presets/level_crossing.png" type="node">
   <key key="railway" value="level_crossing"/>
 </item>
 <item name="Tertiary" tr.name="koyler arasi yolu" icon="presets/way_tertiary.png" type="way">
@@ -115,17 +115,17 @@
   <key key="highway" value="track"/>
   <reference ref="sources" />
 </item>
-<item name="petrol" icon="presets/fuel.png" type="node,closedway">
+<item name="Petrol" icon="presets/fuel.png" type="node,closedway">
   <key key="amenity" value="fuel"/>
 </item>
-<item name="power tower" tr.name="elektrik direk" icon="styles/standard/misc/landmark/power/tower_small.png" type="node">
+<item name="Power tower" tr.name="elektrik direk" icon="styles/standard/misc/landmark/power/tower_small.png" type="node">
   <key key="power" value="tower"/>
 </item>
-<item name="power station" tr.name="trafo merkezi" icon="presets/multipolygon.png" type="node,closedway">
+<item name="Power station" tr.name="trafo merkezi" icon="presets/multipolygon.png" type="node,closedway">
   <key key="power" value="substation"/>
   <reference ref="sources" />
 </item>
-<item name="power line" tr.name="elektrik hat" icon="presets/bench.png" type="way">
+<item name="Power line" tr.name="elektrik hat" icon="presets/bench.png" type="way">
   <key key="power" value="line"/>
   <reference ref="sources" />
 </item>
@@ -133,21 +133,20 @@
   <key key="barrier" value="toll_booth"/>
   <reference ref="sources" />
 </item>
-<item name="tower" tr.name="direk" icon="styles/standard/misc/landmark/tower.png" type="node">
+<item name="Tower" tr.name="direk" icon="styles/standard/misc/landmark/tower.png" type="node">
   <key key="man_made" value="mast"/>
   <key key="tower:type" value="communication"/>
   <reference ref="sources" />
 </item>
-<item name="peak" tr.name="tepe/zirve" icon="presets/peak.svg" type="node">
+<item name="Peak" tr.name="tepe/zirve" icon="presets/peak.svg" type="node">
   <label text="Edit Peak" />
   <key key="natural" value="peak" />
   <text key="name" text="Name" default="" />
-  <reference ref="names" />
   <item_separator />
   <text key="ele" text="Elevation" default="" />
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
-<item name="volcano" tr.name="yanardagi" icon="presets/volcano.png" type="node">
+<item name="Volcano" tr.name="yanardagi" icon="presets/volcano.png" type="node">
   <label text="Edit Volcano" />
   <key key="natural" value="volcano" />
   <text key="name" text="Name" default="" />
@@ -169,8 +168,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="Chin. river" icon="presets/river.png">
-<label text="Edit River" />
+<item name="River in CHina" icon="presets/river.png">
 <label text=" " />
   <text key="code" text="code" default="" />
   <text key="zhb_code" text="zhb_code" default="" />
@@ -185,7 +183,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="highway" tr.name="yol" icon="presets/car.png" match="key">
+<item name="Highway" tr.name="yol" icon="presets/car.png" match="key">
   <label text="highway" />
   <combo key="highway" text="value" type="way" values="primary,secondary,tertiary,undefined,residential,living_street,motorway_link,trunk_link" default="secondary" />
   <text key="ref" text="Ref" default="" />
