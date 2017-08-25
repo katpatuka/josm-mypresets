@@ -48,15 +48,13 @@
   <reference ref="sources" />
 </item>
 <item name="River" icon="presets/river.png" type="way">
+  <combo key="waterway" text="waterway" values="river,stream,ditch" default="stream" match="keyvalue!"/>
   <key key="waterway" value="river"/>
-  <reference ref="sources" />
-</item>
-<item name="Stream" icon="presets/path.png" type="way">
-  <key key="waterway" value="stream"/>
+  <check key="intermittent" text="intermittent?" />
   <reference ref="sources" />
 </item>
 <item name="Natural" icon="presets/bay.png" type="node,way,closedway">
-  <combo key="natural" text="Natural" values="water,wetland,wood,scrub,cliff" default="water" match="keyvalue!"/>
+  <combo key="natural" text="Natural" values="water,wood,wetland,scrub,cliff" default="water" match="keyvalue!"/>
   <reference ref="sources" />
 </item>
 <item name="Landuse" icon="presets/landuse.png" type="closedway">
@@ -71,8 +69,7 @@
 <item name="Mound" icon="styles/standard/historic/palaeontological_site.png" type="node,closedway">
   <key key="man_made" value="mound"/>
   <key key="historic" value="archaeological_site"/>
-  <key key="source" value="bing"/>
-  <text key="wikipedia" text="Wikipedia" default="" />
+  <reference ref="sources" />
 </item>
 <item name="Mosque" tr.name="cami" icon="styles/standard/religion/muslim.png" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
