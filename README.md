@@ -1,5 +1,5 @@
 # josm-mypresets
-## mypresets for use wıth josm
+## mypresets for use with josm
 To deploy these presets
 * start JOSM
 * Press __F12__ key and choose __Map Settings__ > __Tagging Presets__
