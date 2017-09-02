@@ -47,7 +47,7 @@
   <key key="building" value="yes"/>
   <reference ref="sources" />
 </item>
-<item name="River" icon="presets/river.png" type="way">
+<item name="River" icon="http://katpatuka.org/pub/osm/presets/river.png" type="way">
   <combo key="waterway" text="waterway" values="river,stream,ditch" default="stream" match="keyvalue!"/>
   <key key="waterway" value="river"/>
   <check key="intermittent" text="intermittent?" />
@@ -92,7 +92,7 @@
 <item name="Oneway" icon="http://katpatuka.org/pub/osm/presets/oneway.png" type="way">
   <key key="oneway" value="yes" />
 </item>
-<item name="Level crossing" icon="presets/level_crossing.png" type="node">
+<item name="Level crossing" icon="http://katpatuka.org/pub/osm/presets/level_crossing.png" type="node">
   <key key="railway" value="level_crossing"/>
 </item>
 <item name="Tertiary" icon="presets/way_tertiary.png" type="way">
@@ -115,17 +115,17 @@
   <key key="highway" value="track"/>
   <reference ref="sources" />
 </item>
-<item name="Petrol" icon="presets/fuel.png" type="node,closedway">
+<item name="Petrol" icon="http://katpatuka.org/pub/osm/presets/fuel.png" type="node,closedway">
   <key key="amenity" value="fuel"/>
 </item>
-<item name="Power tower" icon="icons/power_tower_high2.n.16.png" type="node">
+<item name="Power tower" icon="http://katpatuka.org/pub/osm/presets/power_tower_high2.n.16.png" type="node">
   <key key="power" value="tower"/>
 </item>
-<item name="Power station" icon="icons/power_substation.n.16.png" type="node,closedway">
+<item name="Power station" icon="http://katpatuka.org/pub/osm/presets/power_substation.n.16.png" type="node,closedway">
   <key key="power" value="substation"/>
   <reference ref="sources" />
 </item>
-<item name="Power line" icon="presets/bench.png" type="way">
+<item name="Power line" icon="http://katpatuka.org/pub/osm/presets/bench.png" type="way">
   <key key="power" value="line"/>
   <reference ref="sources" />
 </item>
@@ -138,7 +138,7 @@
   <key key="tower:type" value="communication"/>
   <reference ref="sources" />
 </item>
-<item name="Peak" icon="presets/peak.svg" type="node">
+<item name="Peak" icon="http://katpatuka.org/pub/osm/presets/peak.svg" type="node">
   <label text="Edit Peak" />
   <key key="natural" value="peak" />
   <text key="name" text="Name" default="" />
@@ -146,7 +146,7 @@
   <text key="ele" text="Elevation" default="" />
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
-<item name="Volcano" icon="presets/volcano.png" type="node">
+<item name="Volcano" icon="http://katpatuka.org/pub/osm/presets/volcano.png" type="node">
   <label text="Edit Volcano" />
   <key key="natural" value="volcano" />
   <text key="name" text="Name" default="" />
@@ -168,7 +168,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="River in CHina" icon="presets/river.png">
+<item name="River in CHina" icon="http://katpatuka.org/pub/osm/presets/river.png">
 <label text=" " />
   <text key="code" text="code" default="" />
   <text key="zhb_code" text="zhb_code" default="" />
@@ -183,7 +183,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="Highway" icon="presets/car.png" match="key">
+<item name="Highway" icon="http://katpatuka.org/pub/osm/presets/car.png" match="key">
   <label text="highway" />
   <combo key="highway" text="value" type="way" values="primary,secondary,tertiary,undefined,residential,living_street,motorway_link,trunk_link" default="secondary" />
   <text key="ref" text="Ref" default="" />
