@@ -43,7 +43,7 @@
   <key key="tunnel" value="yes" />
   <key key="layer" value="-1" />
 </item>
-<item name="Building" icon="styles\standard\misc\landmark\building.png" type="closedway">
+<item name="Building" icon="http://katpatuka.org/pub/osm/presets/building.png" type="closedway">
   <key key="building" value="yes"/>
   <reference ref="sources" />
 </item>
@@ -71,13 +71,13 @@
   <key key="historic" value="archaeological_site"/>
   <reference ref="sources" />
 </item>
-<item name="Mosque" icon="styles\standard\religion\muslim.png" type="node,closedway">
+<item name="Mosque" icon="http://katpatuka.org/pub/osm/presets/muslim.png" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
   <key key="religion" value="muslim"/>
   <key key="denomination" value="sunni"/>
   <reference ref="sources" />
 </item>
-<item name="Buddhist Temple" icon="styles\standard\religion\buddhism.png" type="node,closedway">
+<item name="Buddhist Temple" icon="http://katpatuka.org/pub/osm/presets/buddhism.png" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
   <key key="religion" value="buddhist"/>
   <combo key="denomination" text="denomination" values="tibetan" default="" match="key" />
@@ -89,7 +89,7 @@
   <key key="denomination" value="sunni"/>
   <reference ref="sources" />
 </item>
-<item name="Oneway" icon="http://katpatuka.org/pub/osm/oneway.png" type="way">
+<item name="Oneway" icon="http://katpatuka.org/pub/osm/presets/oneway.png" type="way">
   <key key="oneway" value="yes" />
 </item>
 <item name="Level crossing" icon="presets/level_crossing.png" type="node">
@@ -133,7 +133,7 @@
   <key key="barrier" value="toll_booth"/>
   <reference ref="sources" />
 </item>
-<item name="Tower" icon="presets/tower.png" type="node">
+<item name="Tower" icon="http://katpatuka.org/pub/osm/presets/tower.png" type="node">
   <key key="man_made" value="mast"/>
   <key key="tower:type" value="communication"/>
   <reference ref="sources" />
@@ -156,7 +156,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
 
-<item name="Place" icon="/icons/place.png">
+<item name="Place" icon="http://katpatuka.org/pub/osm/presets/place.png">
 <label text="Edit Place" />
   <text key="name" text="Name" default="" />
   <combo key="place" text="Place" values="village,hamlet,town,location" default="village" match="key" />
@@ -194,4 +194,4 @@
 </item>
 
 </group> <!-- My own -->
-</presets>
+<presets>
