@@ -43,7 +43,7 @@
   <key key="tunnel" value="yes" />
   <key key="layer" value="-1" />
 </item>
-<item name="Building" icon="presets/building.png" type="closedway">
+<item name="Building" icon="styles\standard\misc\landmark\building.png" type="closedway">
   <key key="building" value="yes"/>
   <reference ref="sources" />
 </item>
@@ -71,13 +71,13 @@
   <key key="historic" value="archaeological_site"/>
   <reference ref="sources" />
 </item>
-<item name="Mosque" icon="presets/muslim.png" type="node,closedway">
+<item name="Mosque" icon="styles\standard\religion\muslim.png" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
   <key key="religion" value="muslim"/>
   <key key="denomination" value="sunni"/>
   <reference ref="sources" />
 </item>
-<item name="Buddhist Temple" icon="presets/buddhism.png" type="node,closedway">
+<item name="Buddhist Temple" icon="styles\standard\religion\buddhism.png" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
   <key key="religion" value="buddhist"/>
   <combo key="denomination" text="denomination" values="tibetan" default="" match="key" />
@@ -118,10 +118,10 @@
 <item name="Petrol" icon="presets/fuel.png" type="node,closedway">
   <key key="amenity" value="fuel"/>
 </item>
-<item name="Power tower" icon="/icons/power_tower_high2.n.16.png" type="node">
+<item name="Power tower" icon="icons/power_tower_high2.n.16.png" type="node">
   <key key="power" value="tower"/>
 </item>
-<item name="Power station" icon="/icons/power_substation.n.16.png" type="node,closedway">
+<item name="Power station" icon="icons/power_substation.n.16.png" type="node,closedway">
   <key key="power" value="substation"/>
   <reference ref="sources" />
 </item>
