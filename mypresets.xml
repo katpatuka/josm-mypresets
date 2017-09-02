@@ -115,30 +115,34 @@
   <key key="highway" value="track"/>
   <reference ref="sources" />
 </item>
-<item name="Petrol" icon="http://katpatuka.org/pub/osm/presets/fuel.png" type="node,closedway">
+<item name="Fuel" icon="http://katpatuka.org/pub/osm/presets/fuel.png" type="node,closedway">
+  <label text="fuel" />
   <key key="amenity" value="fuel"/>
 </item>
 <item name="Power tower" icon="http://katpatuka.org/pub/osm/presets/power_tower_high2.n.16.png" type="node">
+  <label text="Power tower" />
   <key key="power" value="tower"/>
 </item>
 <item name="Power station" icon="http://katpatuka.org/pub/osm/presets/power_substation.n.16.png" type="node,closedway">
+  <label text="Power station" />
   <key key="power" value="substation"/>
   <reference ref="sources" />
 </item>
 <item name="Power line" icon="http://katpatuka.org/pub/osm/presets/bench.png" type="way">
+  <label text="Power line" />
   <key key="power" value="line"/>
   <reference ref="sources" />
 </item>
 <item name="Maut" icon="presets/toll_station.png" type="node">
   <key key="barrier" value="toll_booth"/>
-  <reference ref="sources" />
 </item>
-<item name="Tower" icon="http://katpatuka.org/pub/osm/presets/tower.png" type="node">
+<item name="mast" icon="http://katpatuka.org/pub/osm/presets/tower.png" type="node">
+  <label text="Mast" />
   <key key="man_made" value="mast"/>
   <key key="tower:type" value="communication"/>
   <reference ref="sources" />
 </item>
-<item name="Peak" icon="http://katpatuka.org/pub/osm/presets/peak.svg" type="node">
+<item name="peak" icon="http://katpatuka.org/pub/osm/presets/peak.svg" type="node">
   <label text="Edit Peak" />
   <key key="natural" value="peak" />
   <text key="name" text="Name" default="" />
@@ -146,8 +150,8 @@
   <text key="ele" text="Elevation" default="" />
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
-<item name="Volcano" icon="http://katpatuka.org/pub/osm/presets/volcano.png" type="node">
-  <label text="Edit Volcano" />
+<item name="volcano" icon="http://katpatuka.org/pub/osm/presets/volcano.png" type="node">
+  <label text="Volcano" />
   <key key="natural" value="volcano" />
   <text key="name" text="Name" default="" />
   <text key="ele" text="Elevation" default="" />
@@ -155,9 +159,8 @@
   <text key="last_eruption" text="Last eruption" default=""  />
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
-
 <item name="Place" icon="http://katpatuka.org/pub/osm/presets/place.png">
-<label text="Edit Place" />
+<label text="Place" />
   <text key="name" text="Name" default="" />
   <combo key="place" text="Place" values="village,hamlet,town,location" default="village" match="key" />
   <combo key="china_class" text="china_class" values="zhen,xiang" />
@@ -168,8 +171,8 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="River in CHina" icon="http://katpatuka.org/pub/osm/presets/river.png">
-<label text=" " />
+<item name="river_in_China" icon="http://katpatuka.org/pub/osm/presets/river.png">
+<label text="River in China" />
   <text key="code" text="code" default="" />
   <text key="zhb_code" text="zhb_code" default="" />
   <text key="nsdi_code" text="nsdi_code" default="" />
@@ -192,6 +195,5 @@
   <text key="name:en" text="English" default="" />
   <text key="name:tr" text="Turkish" default="" />
 </item>
-
 </group> <!-- My own -->
 </presets>
