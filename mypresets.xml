@@ -31,59 +31,59 @@
   <text key="int_name" text="(International)" default="" />
   <text key="name:de" text="German" default="" />
 </chunk>
-<group name="katpatuka's presets" icon="viewpoin.png">
-<item name="Source" tr.name="kaynak" icon="/presets/informationoffice.png" match="key">
+<group name="katpatuka's presets" icon="styles/standard/sightseeing/viewpoint.png">
+<item name="Source" tr.name="kaynak" icon="presets/informationoffice.png" match="key">
   <reference ref="sources" />
 </item>
-<item name="Bridge" icon="/presets/bridge.png" type="way">
+<item name="Bridge" icon="presets/bridge.png" type="way">
   <key key="bridge" value="yes" />
   <key key="layer" value="1" />
 </item>
-<item name="Tunnel" icon="/presets/tunnel.png" type="way">
+<item name="Tunnel" icon="presets/tunnel.png" type="way">
   <key key="tunnel" value="yes" />
   <key key="layer" value="-1" />
 </item>
-<item name="Building" icon="/presets/building.png" type="closedway">
+<item name="Building" icon="presets/building.png" type="closedway">
   <key key="building" value="yes"/>
   <reference ref="sources" />
 </item>
-<item name="River" icon="/presets/river.png" type="way">
+<item name="River" icon="presets/river.png" type="way">
   <combo key="waterway" text="waterway" values="river,stream,ditch" default="stream" match="keyvalue!"/>
   <key key="waterway" value="river"/>
   <check key="intermittent" text="intermittent?" />
   <reference ref="sources" />
 </item>
-<item name="Natural" icon="/presets/bay.png" type="node,way,closedway">
+<item name="Natural" icon="presets/bay.png" type="node,way,closedway">
   <combo key="natural" text="Natural" values="water,wood,wetland,scrub,cliff" default="water" match="keyvalue!"/>
   <reference ref="sources" />
 </item>
-<item name="Landuse" icon="/presets/landuse.png" type="closedway">
+<item name="Landuse" icon="presets/landuse.png" type="closedway">
   <combo key="landuse" text="Landuse" values="residential,industrial,quarry,landfill,forest,meadow" default="residential" match="keyvalue!"/>
   <reference ref="sources" />
 </item>
-<item name="Dam" icon="/presets/weir.png" type="way,closedway">
+<item name="Dam" icon="presets/weir.png" type="way,closedway">
   <key key="waterway" value="dam"/>
   <key key="building" value="dam"/>
   <reference ref="sources" />
 </item>
-<item name="Mound" icon="/presets/palaeontological_site.png" type="node,closedway">
+<item name="Mound" icon="presets/palaeontological_site.png" type="node,closedway">
   <key key="man_made" value="mound"/>
   <key key="historic" value="archaeological_site"/>
   <reference ref="sources" />
 </item>
-<item name="Mosque" icon="/presets/muslim.png" type="node,closedway">
+<item name="Mosque" icon="presets/muslim.png" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
   <key key="religion" value="muslim"/>
   <key key="denomination" value="sunni"/>
   <reference ref="sources" />
 </item>
-<item name="Buddhist Temple" icon="/presets/buddhism.png" type="node,closedway">
+<item name="Buddhist Temple" icon="presets/buddhism.png" type="node,closedway">
   <key key="amenity" value="place_of_worship"/>
   <key key="religion" value="buddhist"/>
   <combo key="denomination" text="denomination" values="tibetan" default="" match="key" />
   <reference ref="sources" />
 </item>
-<item name="Graveyard" icon="/presets/cemetery.png" type="closedway">
+<item name="Graveyard" icon="presets/cemetery.png" type="closedway">
   <key key="landuse" value="cemetery"/>
   <key key="religion" value="muslim"/>
   <key key="denomination" value="sunni"/>
@@ -92,30 +92,30 @@
 <item name="Oneway" icon="http://katpatuka.org/pub/osm/oneway.png" type="way">
   <key key="oneway" value="yes" />
 </item>
-<item name="Level crossing" icon="/presets/level_crossing.png" type="node">
+<item name="Level crossing" icon="presets/level_crossing.png" type="node">
   <key key="railway" value="level_crossing"/>
 </item>
-<item name="Tertiary" icon="/presets/way_tertiary.png" type="way">
+<item name="Tertiary" icon="presets/way_tertiary.png" type="way">
   <key key="highway" value="tertiary"/>
   <reference ref="sources" />
 </item>
-<item name="Residential" icon="/presets/residential.png" type="way">
+<item name="Residential" icon="presets/residential.png" type="way">
   <key key="highway" value="residential"/>
   <reference ref="sources" />
 </item>
-<item name="Service" icon="/presets/waypoints.png" type="way">
+<item name="Service" icon="presets/waypoints.png" type="way">
   <key key="highway" value="service"/>
   <reference ref="sources" />
 </item>
-<item name="Living Street" icon="/presets/way_unclassified.png" type="way">
+<item name="Living Street" icon="presets/way_unclassified.png" type="way">
   <key key="highway" value="living_street"/>
   <reference ref="sources" />
 </item>
-<item name="Track" icon="/presets/track1.png" type="way">
+<item name="Track" icon="presets/track1.png" type="way">
   <key key="highway" value="track"/>
   <reference ref="sources" />
 </item>
-<item name="Petrol" icon="/presets/fuel.png" type="node,closedway">
+<item name="Petrol" icon="presets/fuel.png" type="node,closedway">
   <key key="amenity" value="fuel"/>
 </item>
 <item name="Power tower" icon="/icons/power_tower_high2.n.16.png" type="node">
@@ -125,20 +125,20 @@
   <key key="power" value="substation"/>
   <reference ref="sources" />
 </item>
-<item name="Power line" icon="/presets/bench.png" type="way">
+<item name="Power line" icon="presets/bench.png" type="way">
   <key key="power" value="line"/>
   <reference ref="sources" />
 </item>
-<item name="Maut" icon="/presets/toll_station.png" type="node">
+<item name="Maut" icon="presets/toll_station.png" type="node">
   <key key="barrier" value="toll_booth"/>
   <reference ref="sources" />
 </item>
-<item name="Tower" icon="/presets/tower.png" type="node">
+<item name="Tower" icon="presets/tower.png" type="node">
   <key key="man_made" value="mast"/>
   <key key="tower:type" value="communication"/>
   <reference ref="sources" />
 </item>
-<item name="Peak" icon="/presets/peak.svg" type="node">
+<item name="Peak" icon="presets/peak.svg" type="node">
   <label text="Edit Peak" />
   <key key="natural" value="peak" />
   <text key="name" text="Name" default="" />
@@ -146,7 +146,7 @@
   <text key="ele" text="Elevation" default="" />
   <text key="wikipedia" text="Wikipedia" default="" />
 </item>
-<item name="Volcano" icon="/presets/volcano.png" type="node">
+<item name="Volcano" icon="presets/volcano.png" type="node">
   <label text="Edit Volcano" />
   <key key="natural" value="volcano" />
   <text key="name" text="Name" default="" />
@@ -168,7 +168,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="River in CHina" icon="/presets/river.png">
+<item name="River in CHina" icon="presets/river.png">
 <label text=" " />
   <text key="code" text="code" default="" />
   <text key="zhb_code" text="zhb_code" default="" />
@@ -183,7 +183,7 @@
   <text key="wikipedia" text="Wikipedia" default="" />
   <text key="wikidata" text="Wikidata" default="" />
 </item>
-<item name="Highway" icon="/presets/car.png" match="key">
+<item name="Highway" icon="presets/car.png" match="key">
   <label text="highway" />
   <combo key="highway" text="value" type="way" values="primary,secondary,tertiary,undefined,residential,living_street,motorway_link,trunk_link" default="secondary" />
   <text key="ref" text="Ref" default="" />
@@ -194,4 +194,4 @@
 </item>
 
 </group> <!-- My own -->
-</presets>
+<presets>
