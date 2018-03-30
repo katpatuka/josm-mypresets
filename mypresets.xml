@@ -29,6 +29,7 @@
   <text key="name:tr" text="Turkish" default="" />
   <item_separator />
   <text key="int_name" text="(International)" default="" />
+  <text key="short_name" text="(Short Name)" default="" />
   <text key="name:de" text="German" default="" />
 </chunk>
 <group name="katpatuka's presets" icon="styles/standard/sightseeing/viewpoint.png">
