@@ -13,6 +13,7 @@
   <item_separator />
   <text key="alt_name" text="Name (alternate)" default="" />
   <text key="old_name" text="Name (old)" default="" />
+  <text key="official_name" text="Official Name" default="" />
   <item_separator />
   <text key="name:zh" text="Chinese" default="" />
   <text key="name:zh_pinyin" text="Name (pinyin)" default="" />
